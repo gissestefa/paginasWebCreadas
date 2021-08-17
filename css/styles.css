@@ -75,8 +75,9 @@ h1 span{
     color: var(--oscuro);
 }
 
-body{
+/*body{
     background-color: goldenrod;
+    font-size: 3rem;
 }
 
 @media(min-width: 480px){
@@ -90,5 +91,14 @@ body{
         background-color: cornflowerblue;
     }
 
+
+}*/
+
+@media (min-width: 480px) {
+    h1{}
+}
+
+@media (min-width: 768px) {
+    h1{}
 }
 
