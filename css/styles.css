@@ -48,12 +48,24 @@ h1 span{
 .navegacion-principal{
     
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    
 
+}
+@media (min-width: 768px) {
+    .navegacion-principal {
+        flex-direction: row;
+        justify-content: space-between;
+        
+       
+    }
+    
 }
 
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     /*margin-top:0 ;
     margin-right: auto;
     margin-bottom: 0;
@@ -100,5 +112,10 @@ h1 span{
 
 @media (min-width: 768px) {
     h1{}
+}
+
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
 }
 
